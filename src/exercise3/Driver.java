@@ -1,5 +1,6 @@
 package exercise3;
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class Driver
@@ -37,7 +38,6 @@ public class Driver
 	private static void printArray(Integer[] nums)
 	{
 		System.out.println(Arrays.toString(nums));
-		
 	}
 	public static Integer[] generateArray() {
 
